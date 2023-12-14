@@ -1,0 +1,49 @@
+header h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 40px 30px;
+    background-color: gray;
+}
+
+.sideBar {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    padding: 10px;
+    justify-content:center;
+    max-width: 90%;
+}
+
+.searchBar {
+    display:flex;
+    max-width: 90%;
+    justify-content: center;
+}
+
+#searchTitle {
+    display:flex;
+    text-wrap: nowrap;
+    font-size: 30px;
+}
+
+.userInput {
+    display:flex;
+    min-width: 100%;
+    border:1px solid gray;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px 10px;
+    
+}
+
+.btn {
+    display: flex;
+    background-color: lightsalmon;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    min-width: 90%;
+    padding: 5px 10px;
+
+}
