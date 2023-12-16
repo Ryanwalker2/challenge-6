@@ -1,16 +1,19 @@
-header h1 {
+header {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     font-size: 40px;
     padding: 40px 30px;
     background-color: cyan;
 }
 
+.clock {
+    display:flex;
+    justify-content: end;
+}
+
 .sideBar {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 40px;
-    padding: 10px;
     justify-content:center;
     max-width: 90%;
 }
@@ -70,8 +73,9 @@ h4 {
 }
 
 .historyBtn {
-    height:20px;
+    height:auto;
     width: 100%;
+    text-transform: capitalize;
 }
 
 @media screen and (max-width: 768px) {

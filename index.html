@@ -16,26 +16,29 @@
 </head>
 
 <body>
-    <header>
-        <h1>Weather Dashboard</h1>
+    <header class="row">
+        <h1 class="col">Weather Dashboard</h1>
+        <time class="col clock"></time>
     </header>
-    <div class="row">
-        <aside class="col-3 sideBar">
-            <section class="row searchBar">
-                <p id="searchTitle">Search for a City:</p>
-                <input type="text" class="row" id="userInput">
+    <div class="container">
+        <div class="row justify-content-around">
+            <aside class="col-3 sideBar">
+                <section class="row searchBar">
+                    <p id="searchTitle">Search for a City:</p>
+                    <input type="text" class="row" id="userInput">
+                </section>
+                <button class="row btn">Search</button>
+                <section class="row history py-2">
+                    <ul id="title">Recent Searches</ul>
+                </section>
+            </aside>
+            <section id="weatherInfo">
+                <div id="currWeather">
+                </div>
+                <div id="weatherForecast">
+                </div>
             </section>
-            <button class="row btn">Search</button>
-            <section class="row history py-2">
-                <ul id="title">Recent Searches</ul>
-            </section>
-        </aside>
-        <section id="weatherInfo">
-            <div id="currWeather">
-            </div>
-            <div id="weatherForecast">
-            </div>
-        </section>
+        </div>
     </div>
     <script src="./assets/js/script.js"></script>
 </body>
